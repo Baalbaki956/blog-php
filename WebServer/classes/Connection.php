@@ -3,8 +3,8 @@ class Connection {
 
     private $host = "localhost";
     private $db = "blog";
-    private $username = "root";
-    private $password = "root";
+    private $username = "";
+    private $password = "";
     
     function connect() {
         $con = mysqli_connect($this->host, $this->username, $this->password, $this->db);
